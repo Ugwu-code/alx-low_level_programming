@@ -1,4 +1,7 @@
-int main(void);
+#ifndef MAIN_H
+#define MAIN_H
+
+int main(void)
 void print_alphabet(void);
 void print_alphabet_x10(void;
 int _islower(int c);
@@ -15,3 +18,5 @@ int 101-natural.c(int n);
 int 102-fibonacci.c(int 1, int 2);
 int 103-fibonacci.c(int n);
 int _putchar(char c);
+
+#endif
